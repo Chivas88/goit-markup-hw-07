@@ -5,12 +5,12 @@
   display: flex;
   margin-right: -30px;
 }
-.works-item {
+.works-list__item {
   position: relative;
   flex-basis: calc(100% / 3 - 30px);
   margin-right: 30px;
 }
-.works-item-wrapper {
+.works-list__wrapper {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -21,7 +21,7 @@
   justify-content: center;
   align-items: center;
 }
-.works-item-title {
+.works-list__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
